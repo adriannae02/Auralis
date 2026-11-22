@@ -1,0 +1,26 @@
+{
+    "incident_id": "SW-20261114_215000-002",
+    "date_generated": "2026-11-14T21:50:00",
+    "incident_type": "Multiple Account Targeting",
+    "mitre_mapping": {
+        "technique_id": "T1110",
+        "technique_name": "Brute Force",
+        "rationale": "Attempts against multiple accounts may indicate account targeting. Additional evidence is needed to identify a specific brute-force sub-technique."
+    },
+    "severity": "HIGH",
+    "source_ip": "198.51.100.22",
+    "username": "Multiple accounts",
+    "evidence": {
+        "type": "Multiple Account Targeting",
+        "severity": "HIGH",
+        "ip_address": "198.51.100.22",
+        "targeted_accounts": [
+            "admin",
+            "guest",
+            "test"
+        ],
+        "account_count": 3,
+        "description": "IP address 198.51.100.22 attempted to access 3 different accounts."
+    },
+    "recommended_action": "Investigate the source IP address, review related authentication activity, and verify whether the login activity was authorized."
+}

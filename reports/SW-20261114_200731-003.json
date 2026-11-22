@@ -1,0 +1,16 @@
+{
+    "incident_id": "SW-20261114_200731-003",
+    "date_generated": "2026-11-14T20:07:31",
+    "incident_type": "Failed Login Followed by Success",
+    "severity": "HIGH",
+    "source_ip": "192.0.2.80",
+    "username": "charlie",
+    "evidence": {
+        "type": "Failed Login Followed by Success",
+        "severity": "HIGH",
+        "ip_address": "192.0.2.80",
+        "username": "charlie",
+        "description": "User charlie had a failed login followed by a successful login from 192.0.2.80."
+    },
+    "recommended_action": "Investigate the source IP address, review related authentication activity, and verify whether the login activity was authorized."
+}

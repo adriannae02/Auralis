@@ -1,0 +1,22 @@
+{
+    "incident_id": "SW-20261114_215000-001",
+    "date_generated": "2026-11-14T21:50:00",
+    "incident_type": "Brute Force Attempt",
+    "mitre_mapping": {
+        "technique_id": "T1110",
+        "technique_name": "Brute Force",
+        "rationale": "Repeated failed login attempts may indicate an attempt to gain access through password guessing."
+    },
+    "severity": "HIGH",
+    "source_ip": "203.0.113.45",
+    "username": "bob",
+    "evidence": {
+        "type": "Brute Force Attempt",
+        "severity": "HIGH",
+        "ip_address": "203.0.113.45",
+        "username": "bob",
+        "failed_attempts": 5,
+        "description": "5 failed login attempts detected for user bob from IP address 203.0.113.45."
+    },
+    "recommended_action": "Investigate the source IP address, review related authentication activity, and verify whether the login activity was authorized."
+}

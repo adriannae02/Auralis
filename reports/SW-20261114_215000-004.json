@@ -1,0 +1,22 @@
+{
+    "incident_id": "SW-20261114_215000-004",
+    "date_generated": "2026-11-14T21:50:00",
+    "incident_type": "Unusual Login Time",
+    "mitre_mapping": {
+        "technique_id": null,
+        "technique_name": "No direct technique assigned",
+        "rationale": "An unusual login time is a contextual indicator, not sufficient evidence of a specific ATT&CK technique."
+    },
+    "severity": "MEDIUM",
+    "source_ip": "192.168.1.10",
+    "username": "alice",
+    "evidence": {
+        "type": "Unusual Login Time",
+        "severity": "MEDIUM",
+        "ip_address": "192.168.1.10",
+        "username": "alice",
+        "login_time": "02:15:22",
+        "description": "Successful login for alice occurred at an unusual time: 02:15:22."
+    },
+    "recommended_action": "Investigate the source IP address, review related authentication activity, and verify whether the login activity was authorized."
+}

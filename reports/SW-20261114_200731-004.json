@@ -1,0 +1,17 @@
+{
+    "incident_id": "SW-20261114_200731-004",
+    "date_generated": "2026-11-14T20:07:31",
+    "incident_type": "Unusual Login Time",
+    "severity": "MEDIUM",
+    "source_ip": "192.168.1.10",
+    "username": "alice",
+    "evidence": {
+        "type": "Unusual Login Time",
+        "severity": "MEDIUM",
+        "ip_address": "192.168.1.10",
+        "username": "alice",
+        "login_time": "02:15:22",
+        "description": "Successful login for alice occurred at an unusual time: 02:15:22."
+    },
+    "recommended_action": "Investigate the source IP address, review related authentication activity, and verify whether the login activity was authorized."
+}

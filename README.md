@@ -127,3 +127,9 @@ This project was developed to strengthen practical skills in:
 - Security incident documentation
 - MITRE ATT&CK framework research
 - Building interactive dashboards with Streamlit
+
+## Dashboard Preview
+
+The Auralis dashboard provides a visual overview of authentication activity, detected threats, and security incidents.
+
+![Auralis Dashboard](screenshots/auralis-dashboard.png)
